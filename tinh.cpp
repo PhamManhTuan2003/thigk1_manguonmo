@@ -5,5 +5,8 @@ int main() {
 	int n;
 	cout << "Nhap vao so nguyen:";
 	cin >> n;
-
+	if (n%2!=0)
+	{
+		cout << "La so le";
+	}
 }
